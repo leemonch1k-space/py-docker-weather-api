@@ -31,5 +31,6 @@ def get_weather() -> None:
     except Exception as e:
         print(f"Something went wrong, error: {e}")
 
+
 if __name__ == "__main__":
     get_weather()
